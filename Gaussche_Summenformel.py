@@ -8,3 +8,4 @@ def get_sum(n):
 
 sum_result = get_sum(100)
 print(sum_result)
+
