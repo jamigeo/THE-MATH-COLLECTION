@@ -1,9 +1,9 @@
 
 
 Function Get-Hypo() {
-    $a = 3
-    $b = 4
-    $c = [System.Math]::sqrt( $a * $a + $b * $b );
+    [float]$a = 3.0
+    [float]$b = 4.0
+    [float]$c = [System.Math]::sqrt( $a * $a + $b * $b );
     return $c;
 }
 
