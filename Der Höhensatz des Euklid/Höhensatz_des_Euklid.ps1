@@ -5,7 +5,7 @@ Function Get-High {
         [float]$q
     )
 
-    return [System.Math]::sqrt( $p * $q ) / 2
+    return [System.Math]::Sqrt( $p * $q ) / 2
 }
 
 $height = Get-High -p 4 -q 9
